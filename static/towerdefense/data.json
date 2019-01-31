@@ -1,0 +1,170 @@
+{
+	"sprites": [
+		{
+			"name": "castle",
+			"offset_px_x": 5,
+			"offset_px_y": 5,
+			"sprite_width": 50,
+			"sprite_height": 50,
+			"frames": 1
+		},
+		{
+			"name": "portal",
+			"offset_px_x": 65,
+			"offset_px_y": 5,
+			"sprite_width": 50,
+			"sprite_height": 50,
+			"frames": 1
+		},
+		{
+			"name": "bullet",
+			"offset_px_x": 125,
+			"offset_px_y": 5,
+			"sprite_width": 15,
+			"sprite_height": 15,
+			"frames": 1
+		},
+		{
+			"name": "rocket",
+			"offset_px_x": 150,
+			"offset_px_y": 5,
+			"sprite_width": 13,
+			"sprite_height": 25,
+			"frames": 1
+		},
+		{
+			"name": "rocket_tower",
+			"offset_px_x": 173,
+			"offset_px_y": 5,
+			"sprite_width": 50,
+			"sprite_height": 50,
+			"frames": 1
+		},
+		{
+			"name": "bullet_tower",
+			"offset_px_x": 233,
+			"offset_px_y": 5,
+			"sprite_width": 50,
+			"sprite_height": 50,
+			"frames": 1
+		},
+		{
+			"name": "grass",
+			"offset_px_x": 293,
+			"offset_px_y": 5,
+			"sprite_width": 50,
+			"sprite_height": 50,
+			"frames": 1
+		},
+		{
+			"name": "road",
+			"offset_px_x": 353,
+			"offset_px_y": 5,
+			"sprite_width": 50,
+			"sprite_height": 50,
+			"frames": 1
+		},
+		{
+			"name": "menu",
+			"offset_px_x": 413,
+			"offset_px_y": 5,
+			"sprite_width": 100,
+			"sprite_height": 600,
+			"frames": 1
+		},
+		{
+			"name": "heart",
+			"offset_px_x": 523,
+			"offset_px_y": 5,
+			"sprite_width": 25,
+			"sprite_height": 25,
+			"frames": 1
+		},
+		{
+			"name": "coin",
+			"offset_px_x": 558,
+			"offset_px_y": 5,
+			"sprite_width": 25,
+			"sprite_height": 25,
+			"frames": 1
+		},
+		{
+			"name": "green",
+			"offset_px_x": 593,
+			"offset_px_y": 5,
+			"sprite_width": 25,
+			"sprite_height": 25,
+			"frames": 1
+		},
+		{
+			"name": "red",
+			"offset_px_x": 628,
+			"offset_px_y": 5,
+			"sprite_width": 25,
+			"sprite_height": 25,
+			"frames": 1
+		},
+		{
+			"name": "yellow",
+			"offset_px_x": 663,
+			"offset_px_y": 5,
+			"sprite_width": 25,
+			"sprite_height": 25,
+			"frames": 1
+		},
+		{
+			"name": "title",
+			"offset_px_x": 698,
+			"offset_px_y": 5,
+			"sprite_width": 800,
+			"sprite_height": 600,
+			"frames": 1
+		}
+	],
+	"levels_maps" : [
+	  [
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,2,0,0,1,1,1,1,0,0,3,0,0],
+		[0,0,1,0,0,1,0,0,1,0,0,1,0,0],
+		[0,0,1,0,0,1,0,0,1,0,0,1,0,0],
+		[0,0,1,1,1,1,0,0,1,1,1,1,0,0],
+		[0,0,0,0,0,1,1,1,1,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+	 ],
+	 [
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,1,1,1,1,1,1,1,1,1,3,0,0],
+		[0,0,1,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,1,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,1,1,1,1,1,1,1,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,1,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,1,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,1,0,0,0,0,0],
+		[0,0,0,1,1,1,1,1,1,0,0,0,0,0],
+		[0,0,0,1,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,1,1,1,2,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     ]
+	],
+	"waves_level" : [
+		{
+			"enemies_count": [10, 5, 3, 5],
+			"enemies_type": ["green", "yellow", "blue", "green"],
+			"enemies_speed": [1, 1.5, 2, 1],
+			"enemies_health": [30, 30, 20, 50],
+			"enemies_gold": [1, 2, 5, 10]
+		},
+		{
+			"enemies_count": [15, 5, 1],
+			"enemies_type": ["green", "green", "green"],
+			"enemies_speed": [1, 1.5, 2],
+			"enemies_health": [20, 30, 100],
+			"enemies_gold": [1, 2, 5]
+		}
+	]
+}
